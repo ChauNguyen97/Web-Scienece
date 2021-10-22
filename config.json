@@ -1,20 +1,20 @@
 {
     "https://www.imdb.com/": {
-        "list" : ".lister .lister-list .lister-item",
-        "thumbnail" : "img",
-        "title" : "a",
-        "imdb" : ".ratings-imdb-rating",
-        "votes" : "span[name='nv']",
-        "release" : ".lister-item-year",
-        "link" : "a"
+        "list": "lister-item mode-detail",
+        "thumbnail": "img",
+        "title": "a",
+        "imdb": ".ratings-imdb-rating",
+        "votes": "span[name='nv']",
+        "release": ".lister-item-year",
+        "link": "a"
     },
-    "https://myanimelist.net/" : {
-        "list" : ".top-ranking-table .ranking-list",
-        "thumbnail" : "img",
-        "title" : ".detail h3 > a",
-        "imdb" : ".score .score-label",
-        "votes" : ".information",
-        "release" : ".information",
-        "link" : "a"
+    "https://myanimelist.net/": {
+        "list": ".top-ranking-table .ranking-list",
+        "thumbnail": "img",
+        "title": ".detail h3 > a",
+        "imdb": ".score .score-label",
+        "votes": ".information",
+        "release": ".information",
+        "link": "a"
     }
 }
