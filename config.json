@@ -1,6 +1,6 @@
 {
     "https://www.imdb.com/": {
-        "list": "lister-item mode-detail",
+        "list": ".lister .lister-item",
         "thumbnail": "img",
         "title": "a",
         "imdb": ".ratings-imdb-rating",

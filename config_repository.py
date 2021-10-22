@@ -12,3 +12,9 @@ class ConfigRepository:
             if url.find(key) != -1:
                 return self._pattern[key]
         return {}
+
+    def isExistsDomain(self, url):
+        for key in self._pattern.keys():
+            if url.find(key) != -1:
+                return key
+        return ""
