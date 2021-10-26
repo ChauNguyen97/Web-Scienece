@@ -2,7 +2,8 @@
     "https://www.imdb.com/": {
         "list": ".lister .lister-item",
         "thumbnail": "img",
-        "title": "a",
+        "get-thumbnail": "src",
+        "title": "h3 a",
         "imdb": ".ratings-imdb-rating",
         "votes": "span[name='nv']",
         "release": ".lister-item-year",
@@ -11,10 +12,14 @@
     "https://myanimelist.net/": {
         "list": ".top-ranking-table .ranking-list",
         "thumbnail": "img",
+        "get-thumbnail": "data-src",
         "title": ".detail h3 > a",
-        "imdb": ".score .score-label",
-        "votes": ".information",
+        "imdb": "div > span",
+        "votes": "td.title.al.va-t.word-break > div ",
         "release": ".information",
-        "link": "a"
+        "link": "a",
+        "index-votes": -2,
+        "index-release-start": 4,
+        "index-release-end": 7
     }
 }
